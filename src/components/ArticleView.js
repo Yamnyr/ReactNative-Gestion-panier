@@ -5,7 +5,7 @@ export default function ArticleView(props) {
     return (
         <View>
             <Title Title={'Titre'}></Title>
-            <Footer Footer={'Footer de merde'}></Footer>
+            <Footer Footer={'Footer'}></Footer>
         </View>
     )
 }

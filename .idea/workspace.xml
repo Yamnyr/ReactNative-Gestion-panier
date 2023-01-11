@@ -2,44 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7bbd847a-8fd6-430c-8f80-e474f56a57cd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/data copy.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/delay.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/clavier1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/clavier2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/clavier3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/clavier4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/clavier5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/clavier6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/ecran1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/ecran2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/ecran3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/ecran4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/ecran5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/ecran6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/moins.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/pc1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/pc2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/pc3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/pc4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/pc5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/pc6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/plus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/souris1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/souris2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/souris3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/souris4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/souris5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/souris6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/trash.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ArticleList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ArticleView.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Footer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Quantity.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Title.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ArticleList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ArticleList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ArticleView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ArticleView.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +46,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1673447195272</updated>
-      <workItem from="1673447196437" duration="4041000" />
+      <workItem from="1673447196437" duration="5976000" />
     </task>
     <servers />
   </component>
