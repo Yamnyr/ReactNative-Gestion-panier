@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7bbd847a-8fd6-430c-8f80-e474f56a57cd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/services/api/articles.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Article.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Article.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ArticleList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ArticleList.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ArticleView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ArticleView.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Quantity.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Quantity.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Title.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Title.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +32,9 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/Users/waro0002/reactnative/gestion-panier",
+    "last_opened_file_path": "/home/Users/waro0002/reactnative/gestion-panier/src/services/api",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "prettierjs.PrettierConfiguration.Package": "/home/Users/waro0002/reactnative/gestion-panier/node_modules/prettier",
     "vue.rearranger.settings.migration": "true"
@@ -35,6 +42,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/services/api" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -47,6 +55,9 @@
       <option name="presentableId" value="Default" />
       <updated>1673447195272</updated>
       <workItem from="1673447196437" duration="5976000" />
+      <workItem from="1673453191509" duration="25000" />
+      <workItem from="1673515096197" duration="36000" />
+      <workItem from="1673613288303" duration="10068000" />
     </task>
     <servers />
   </component>
