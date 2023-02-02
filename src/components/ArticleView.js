@@ -27,7 +27,7 @@ export default function ArticleView(props) {
     return (
         <View  style={styles.ArticleView}>
             <Title Title={'Titre'}></Title>
-            <ArticleList articles={articles} cart={}></ArticleList>
+            <ArticleList articles={articles} cart={panier}></ArticleList>
             <Footer Footer={'Footer'}></Footer>
         </View>
     )

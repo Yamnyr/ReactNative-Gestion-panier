@@ -1,10 +1,12 @@
 import {ScrollView, StyleSheet, Text, View} from 'react-native';
-import Articles from "../services/api/articles";
+import Article from "./Article";
 import { fetchAllArticles } from "../services/api/articles";
 
 export default function ArticleList(props) {
-  const listArticles = articlesList.map((v, i) => (
-    <Articles key={v.id} data={v} />
+  const { articles, cart } = props;
+  console.log(articles);
+  const listArticles = articles.map((v, i) => (
+    <Article key={v.id} data={v} />
   ));
     return (
         <ScrollView style={styles.ArticleList}>
