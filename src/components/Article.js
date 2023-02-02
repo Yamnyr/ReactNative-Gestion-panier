@@ -33,7 +33,4 @@ const styles = StyleSheet.create({
     border: 'solid',
     margin: '5px',
   },
-  Img:{
-    border: '1,0,1,0 solid',
-  }
 });

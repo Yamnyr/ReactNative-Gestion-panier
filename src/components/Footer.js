@@ -19,8 +19,11 @@ export default function Footer(props) {
 const styles = StyleSheet.create({
     Title: {
         textAlign: 'center',
+        margin: 10,
+        border: 'solid',
     },
     footer: {
+        marginBottom: 0,
         fontSize: 20,
         fontWeight: 'bold',
         margin: 10,
