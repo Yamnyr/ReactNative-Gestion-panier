@@ -4,7 +4,6 @@ import { fetchAllArticles } from "../services/api/articles";
 
 export default function ArticleList(props) {
   const { articles, cart } = props;
-  console.log(articles);
   const listArticles = articles.map((v, i) => (
     <Article key={v.id} data={v} />
   ));

@@ -14,21 +14,21 @@ export default function ArticleView(props) {
       });
     fetchPanier()
       .then((panier)=>{
-        setPanier()
+        setPanier(structure(panier))
 
       })
   },[])
 
-  function structure() {
-    panier.reduce((panier, article) => {
-      return {...panier,[article.id]: article};
-    })
+  function structure(panier) {
+    return panier.reduce((obj, article) => {
+      return {...obj,[article.id]: article};
+    }, {})
   }
     return (
         <View  style={styles.ArticleView}>
             <Title Title={'Titre'}></Title>
             <ArticleList articles={articles} cart={panier}></ArticleList>
-            <Footer Footer={'Footer'}></Footer>
+            <Footer Footer={'Footer'} cart={panier}></Footer>
         </View>
     )
 }
