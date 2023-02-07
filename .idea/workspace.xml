@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7bbd847a-8fd6-430c-8f80-e474f56a57cd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/context/store.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Article.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Article.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ArticleList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ArticleList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Quantity.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Quantity.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,13 +30,14 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/Users/waro0002/reactjs/React-bookmarks",
+    "last_opened_file_path": "/home/Users/waro0002/reactnative/Macalculatrice",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.standard": "",
     "nodejs_package_manager_path": "npm",
     "prettierjs.PrettierConfiguration.Package": "/home/Users/waro0002/reactnative/gestion-panier/node_modules/prettier",
+    "ts.external.directory.path": "/opt/WebStorm-222.4167.31/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -55,7 +59,8 @@
       <workItem from="1673453191509" duration="25000" />
       <workItem from="1673515096197" duration="36000" />
       <workItem from="1673613288303" duration="10129000" />
-      <workItem from="1675326033768" duration="9579000" />
+      <workItem from="1675326033768" duration="9593000" />
+      <workItem from="1675773201461" duration="6678000" />
     </task>
     <servers />
   </component>

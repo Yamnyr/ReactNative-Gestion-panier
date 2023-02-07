@@ -5,7 +5,7 @@ import { fetchAllArticles } from "../services/api/articles";
 export default function ArticleList(props) {
   const { articles, cart } = props;
   const listArticles = articles.map((v, i) => (
-    <Article key={v.id} data={v} />
+    <Article key={v.id} article={v} inCart={cart[articles.id]}/>
   ));
     return (
         <ScrollView style={styles.ArticleList}>
