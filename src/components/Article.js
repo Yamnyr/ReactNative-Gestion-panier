@@ -15,7 +15,7 @@ export default function Article(props) {
         <div style={styles.Div}>
           <img style={styles.Img} src={"http://localhost:7000"+(picture)}/>
           <View>
-            <Quantity quantity={inCart.quantity} onUpdate={}></Quantity>
+            <Quantity quantity={inCart.quantity} /*onUpdate={}*/></Quantity>
           </View>
         </div>
       </div>
