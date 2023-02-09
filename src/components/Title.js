@@ -11,10 +11,12 @@ export default function Title(props) {
 const styles = StyleSheet.create({
     Title: {
         textAlign: 'center',
+        border: 'solid',
+        margin: '2%',
+        width: '100%'
     },
     title: {
         fontSize: 40,
         fontWeight: 'bold',
-        margin: 10,
     }
 });

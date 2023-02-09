@@ -16,12 +16,7 @@ export default function ArticleList(props) {
 }
 
 const styles = StyleSheet.create({
-    ArticleList: {
-        textAlign: 'center',
-    },
-    footer: {
-        fontSize: 40,
-        fontWeight: 'bold',
-        margin: 10,
-    }
+ArticleList:{
+  width : '100%'
+}
 });

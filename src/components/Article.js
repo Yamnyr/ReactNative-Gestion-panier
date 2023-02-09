@@ -12,9 +12,11 @@ export default function Article(props) {
   function onUpdate(newQuantity) {
     if (newQuantity === 0) {
       dispatch({type: 'delete_in_cart', id})
+      // mise à jour des données distantes
     }
     else {
       dispatch({type: 'set_in_cart', inCart: {id, prix, quantity: newQuantity}})
+      // mise à jour des données distantes
     }
   }
 
@@ -22,8 +24,8 @@ export default function Article(props) {
     <View style={styles.Article}>
       <div style={styles.Card}>
         <div style={styles.Div}>
-          <Text >{description}</Text>
-          <Text>{prix} €</Text>
+          <Text style={styles.text} >{description}</Text>
+          <Text style={styles.text} >{prix} €</Text>
         </div>
         <div style={styles.Div}>
           <img style={styles.Img} src={"http://localhost:7000"+(picture)}/>
@@ -44,8 +46,14 @@ const styles = StyleSheet.create({
     display: 'flex',
     padding: '10px',
   },
-  Card:{
+  Article:{
     border: 'solid',
     margin: '5px',
+    width: '95%',
+    fontSize:'40vw',
   },
+  text:{
+    fontSize:20,
+    fontWeight: 'bold',
+  }
 });

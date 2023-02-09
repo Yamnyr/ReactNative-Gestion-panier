@@ -21,6 +21,7 @@ const styles = StyleSheet.create({
         textAlign: 'center',
         margin: 10,
         border: 'solid',
+        width: '100%'
     },
     footer: {
         marginBottom: 0,
