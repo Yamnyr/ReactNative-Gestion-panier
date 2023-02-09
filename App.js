@@ -1,12 +1,12 @@
-import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
-import Title from "./src/components/Title";
 import ArticleView from "./src/components/ArticleView";
 import {Context} from "./src/context/store";
-import useArticle from "./src/hook/useArticles";
+import { useReducer } from "react";
+import { reducer } from "./src/reducer/Reducer";
+import useArticles from "./src/hook/useArticles"
 
 export default function App() {
-  const [state, dispatch] = useArticle();
+  const [state, dispatch] = useArticles();
   return (
     <View style={styles.container}>
       <Context.Provider value={{state, dispatch}}>

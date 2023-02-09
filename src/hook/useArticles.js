@@ -3,8 +3,9 @@ import {Context} from "../context/store"
 import { fetchAllArticles, fetchPanier } from "../services/api/articles";
 import { reducer } from "../reducer/Reducer"
 
-export default function useArticle(){
-  const initialState = {articles:[], cart :{}};
+export const initialState = {articles:[], cart :{}};
+
+export default function useArticles(){
   const [state, dispatch ]= useReducer(reducer, initialState)
   useEffect(() => {
     fetchAllArticles()
@@ -14,20 +15,19 @@ export default function useArticle(){
     fetchPanier()
       .then((panier)=>{
         // setPanier(structure(panier))
-        let d = cart.reduce((panier, article) => {
+        let d = panier.reduce((panier, article) => {
           panier[article.id] = article;
           return panier;
         }, {});
-        dispatch({type:'set_panier', panier:panier})
+        dispatch({type:'set_panier', cart:d})
       })
   },[])
 
+  return [state, dispatch ]
 }
 // function structure(panier) {
 //   return panier.reduce((obj, article) => {
 //     return {...obj,[article.id]: article};
 //   }, {})
 // }
-export const defaultState = {
 
-};

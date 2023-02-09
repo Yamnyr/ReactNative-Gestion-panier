@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7bbd847a-8fd6-430c-8f80-e474f56a57cd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/reducer/Reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hook/useQuantity.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Article.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Article.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ArticleList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ArticleList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ArticleView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ArticleView.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Quantity.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Quantity.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hook/useArticles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hook/useArticles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducer/Reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducer/Reducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,22 +28,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/Users/waro0002/reactnative/Macalculatrice&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/home/Users/waro0002/reactnative/gestion-panier/node_modules/prettier&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/opt/WebStorm-222.4167.31/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/Users/waro0002/reactnative/Macalculatrice",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "/home/Users/waro0002/reactnative/gestion-panier/node_modules/prettier",
+    "ts.external.directory.path": "/opt/WebStorm-222.4167.31/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/services/api" />
@@ -64,7 +67,9 @@
       <workItem from="1673613288303" duration="10129000" />
       <workItem from="1675326033768" duration="9593000" />
       <workItem from="1675773201461" duration="6966000" />
-      <workItem from="1675859811663" duration="8727000" />
+      <workItem from="1675859811663" duration="9090000" />
+      <workItem from="1675930990243" duration="9221000" />
+      <workItem from="1675945833857" duration="7146000" />
     </task>
     <servers />
   </component>

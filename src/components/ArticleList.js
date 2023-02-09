@@ -5,6 +5,7 @@ import { fetchAllArticles } from "../services/api/articles";
 export default function ArticleList(props) {
   const { articles, cart } = props;
   const listArticles = articles.map((article, i) => (
+
     <Article key={article.id} article={article} inCart={cart[article.id]}/>
   ));
     return (
