@@ -19,6 +19,9 @@ export default function Article(props) {
       // mise à jour des données distantes
     }
   }
+//^^ mettre cette fucntion dans useQuantity ^^
+
+
 
   return (
     <View style={styles.Article}>

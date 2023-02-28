@@ -4,11 +4,7 @@
     <list default="true" id="7bbd847a-8fd6-430c-8f80-e474f56a57cd" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Article.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Article.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ArticleList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ArticleList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ArticleView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ArticleView.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Quantity.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Quantity.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Title.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Title.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hook/useQuantity.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hook/useQuantity.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +27,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/Users/waro0002/reactnative/Macalculatrice",
+    "last_opened_file_path": "/home/Users/waro0002/reactnative/gestion-panier",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -67,7 +63,9 @@
       <workItem from="1675773201461" duration="6966000" />
       <workItem from="1675859811663" duration="9090000" />
       <workItem from="1675930990243" duration="9221000" />
-      <workItem from="1675945833857" duration="9958000" />
+      <workItem from="1675945833857" duration="10719000" />
+      <workItem from="1676276991053" duration="2475000" />
+      <workItem from="1677587630487" duration="4615000" />
     </task>
     <servers />
   </component>
